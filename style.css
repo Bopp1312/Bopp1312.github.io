@@ -1,3 +1,9 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{margin:2rem auto;max-width:720px;line-height:1.6;
+     font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+nav a{text-decoration:none}nav a:hover{text-decoration:underline}
+hr{border:0;border-top:1px solid #ddd;margin:1rem 0}
+
 /* ==== TV static background (pure CSS) ==== */
 :root { --noise-opacity: 0.08; --noise-speed: 900ms; }
 
