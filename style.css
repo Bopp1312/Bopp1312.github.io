@@ -5,7 +5,7 @@ nav a{text-decoration:none}nav a:hover{text-decoration:underline}
 hr{border:0;border-top:1px solid #ddd;margin:1rem 0}
 
 /* ==== TV static background (pure CSS) ==== */
-:root { --noise-opacity: 0.08; --noise-speed: 900ms; }
+:root { --noise-opacity: 0.25; --noise-speed: 900ms; }
 
 body::before {
   content: "";
