@@ -10,7 +10,7 @@
 
 <body>
   <main>
-    <h1 data-heading="Overview" dir="auto">Overview</h1>
+    <h1 data-heading="Floatilla" dir="auto">Overview</h1>
     <img src="floatilla_vintage.jpeg" alt="Floatilla Vintage Photo" height="400 px">
     <p dir="auto">I grew up in the midwest, and throughout my college years, my friends and I would enjoy spending
       weekends going on float trips. Gently floating down the river as a group over the course of an afternoon was
@@ -20,22 +20,69 @@
       to support coolers, snacks and seating, additionally this vessel would be capable of towing numerous other
       floaters riding inner-tubes. I found an inflatable dock on the internet and decided it would make a perfect
       structure for the Floatilla since it was relatively cheap and spacious. </p>
-    <h1 data-heading="Power and Energy Study" dir="auto">Power and Energy Study</h1>
+    <h1 data-heading="Drag Experiment" dir="auto">Drag Experiment</h1>
     <p dir="auto">I needed to determine the drag that the inflatable dock would have as it moved through the water, as
       well as estimate the drag for a person being towed in an inner-tube.<br>
       To estimate the drag coefficients I devised a bucket and pulley system in which a bucket holding a known amount of
       water would be released from a height and then the rope was routed through a pulley system with 4x reduction
       before going out across the water to the subject.<br>
-      Starting with a no slack the bucket would be released from a known height and mass and then would descend a known
+
+      <img src="experimental_setup.png" alt="Floatilla Testing Setup" height="400 px"><br>
+
+      Starting with the line completley taught the bucket would be released from a known height with a known mass and
+      then would descend a known
       distance as the subject floating on the surface of the water is then pulled through the water by a constant
       pulling force. By measuring the time it takes for the bucket to descend a certain distance it was then possible to
       calculate the average velocity of the subject which experienced a constant force. Thus the Drag coefficient could
-      be determined by solving the Drag equation for C_d</p>
-      <img src="experimental_setup.png" alt="Floatilla Testing Setup" height="400 px">
-      <blockquote By plotting the C_d as a function of Velocity it can be see that the rate of change change in C_d by a dV if 
-      less as V increases. This sensitivity study was very useful, and meant that for my results to be most 
-      accurate I should use a much mass in mthe bucket as possible.
-      By having the blockquote> 
+      be determined by solving the Drag equation for C_d
+    </p>
+
+    <div style="text-align: center;">
+      <img src="drag_plot.png" alt="Drag Coefficient Plot" height="400 px" style="border: 1px solid black;">
+    </div>
+    <p>
+      This plot shows the results fo the drag experiment, where 3 different test subjects were used. Multiple idential
+      trials were run
+      to provide an average value for each data point, and ensure accuracy.
+    </p>
+    <table style="border-collapse: collapse; width: 100%;">
+      <tr>
+        <th style="border: 1px solid black; padding: 8px;">Subject</th>
+        <th style="border: 1px solid black; padding: 8px;">Description</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">Human</td>
+        <td style="border: 1px solid black; padding: 8px;">Person in water up to their head in water</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">Tube</td>
+        <td style="border: 1px solid black; padding: 8px;">Person sitting on inner-tube floatation crouched position with chest above water</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">Platform</td>
+        <td style="border: 1px solid black; padding: 8px;">The inflatable dock with a single 165lbs Jonathan aboard</td>
+      </tr>
+    </table>
+    <div style="text-align: center;">
+      <img src="sensitivity_study.png" alt="Sensitivity Study" height="400 px" style="border: 1px solid black;">
+    </div>
+    <blockquote>
+      By plotting the C_d as a function of Velocity it can be seen that the rate of change in C_d decreases as V
+      increases.
+      This sensitivity study was very useful, and meant that for my results to be most accurate I should use as much
+      mass
+      in the bucket as possible, so I could ensure the steady state velocity achieved was suffeciently high and therefore
+      less susceptible to error when estimating the drag coefficient C_d.
+    </blockquote>
+
+    <h1 data-heading="Power and Energy Study" dir="auto">Power and Energy Study</h1>
+    By knowing the drag coefficient of both the Floatilla platform as well as a person riding an inner-tube it was
+    possible to estimate the power required to tow various numbers of people at different speeds. Using the drag
+    equation to determine the drag force at a given speed for the estimated towing load (people, tubes). I was able to
+     then determine that approximatley 2.5Kwh was a suffecient amount of energy to tow 6 people on inner-tubes at a
+     speed of 2mph for a duration of 4 hours.
+
+    <h1 data-heading="Construction" dir="auto">Construction</h1>
 
   </main>
   <footer>
